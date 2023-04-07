@@ -7,10 +7,10 @@ import (
 )
 
 const (
-	stateNew = 1 + iota
-	stateRunning
-	stateStopped
-	stateFailed
+	StateNew = 1 + iota
+	StateRunning
+	StateStopped
+	StateFailed
 )
 
 // BackgroundServer is a helper to run a real cockroach node.
